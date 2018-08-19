@@ -1,0 +1,29 @@
+{
+  "name": "docker-logregator",
+  "version": "1.0.0",
+  "description": "docker-logger compatible lib for logregator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peebles/docker-logregrator.git"
+  },
+  "keywords": [
+    "docker",
+    "log"
+  ],
+  "author": "Andrew Peebles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peebles/docker-logregrator/issues"
+  },
+  "homepage": "https://github.com/peebles/docker-logregrator#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
+    "winston": "^2.4.3",
+    "winston-gelf-pro": "^1.0.0"
+  }
+}
